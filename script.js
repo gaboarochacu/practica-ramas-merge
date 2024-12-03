@@ -14,6 +14,6 @@ function agregarALaPantalla(value) {
 
   function borrarUltimoCaracter () {
     const valorPantalla = document.getElementById('pantalla').value;
-    document.getElementById('pantalla').value = valorPantalla.slice(0,-1)
-  }
+    const resultado = valorPatanlla.Substring(0, valorPantalla.length -1);
+    document.getElementById('pantalla').value = resultado
   
